@@ -1,0 +1,30 @@
+@import "./component/navbar.css";
+@import "./component/footer.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
+
+@import "./page/home.css";
+
+canvas {
+  display: block;
+} /* ---- particles.js container ---- */
+
+#particles-js{
+  position: absolute;
+  z-index: -1;
+  top:0;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #1D1D1D;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1D1D1D;
+  margin: 0;
+  padding: 0;
+}
+
+
+

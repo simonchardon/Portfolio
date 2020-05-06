@@ -1,0 +1,20 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:Simon25500/Portfolio.git",
+  "author": "Simon Chardon <simonchardon87@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "particles.js": "^2.0.0",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}

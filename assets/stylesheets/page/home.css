@@ -1,0 +1,59 @@
+
+
+
+.home{
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../images/Vector 1.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain ;
+}
+
+.home-content {
+  padding-left: 40vh;
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+}
+
+.home-content h1 {
+  font-size: 69px;
+  font-weight: bold;
+  color: #63FDD8;
+}
+
+.home-content h2 {
+  font-size: 30px;
+  color: #fff;
+
+}
+
+.btn-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  color: #63FDD8;
+  border: 1px solid #63FDD8 ;
+  padding: 10px;
+  font-size: 28px;
+  opacity: 70%;
+}
+
+.btn-contact:hover{
+  opacity: 100%;
+}
+
+@media (max-width: 1100px) {
+  .home-content{
+    padding-left: 20vw;
+  }
+}
+
+
+
+
