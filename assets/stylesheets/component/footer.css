@@ -5,5 +5,15 @@
   position: fixed;
   bottom: 0;
   background-color: #63FDD8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 

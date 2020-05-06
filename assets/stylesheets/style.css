@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
 
 @import "./page/home.css";
+@import "./page/connaisance.css";
 
 canvas {
   display: block;
@@ -24,6 +25,7 @@ body{
   background-color: #1D1D1D;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 
