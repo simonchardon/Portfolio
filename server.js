@@ -3,6 +3,8 @@ const express = require('express')
 const app = express();
 const fs = require('fs');
 const path = require('path');
+const mailer = require('./mailer.js');
+const bodyParser = require('body-parser')
 
 const normalizePort = val => {
   const port = parseInt(val, 10);
@@ -61,13 +63,36 @@ app.use((req, res, next) => {
   next();
 });
 
-// app.use(bodyParser.json());
+app.use(bodyParser.json());
 
 
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname,'public/index.html'));
 });
+
+app.get('/connaisance', (req, res) => {
+  res.sendFile(path.join(__dirname,'public/connaisance.html'));
+});
+
+app.get('/projet', (req, res) => {
+  res.sendFile(path.join(__dirname,'public/projet.html'));
+});
+
+app.get('/formation', (req, res) => {
+  res.sendFile(path.join(__dirname,'public/formation.html'));
+});
+
+app.get('/contact', (req, res) => {
+  res.sendFile(path.join(__dirname,'public/contact.html'));
+});
+
+app.post('/mail' , (req, res) => {
+  // mailer.main();
+  console.log(req.body);
+  res.send(status(200))
+})
+
 
 
 server.listen(port);

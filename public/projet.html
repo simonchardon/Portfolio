@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet"  href="./stylesheets/style.css">
+</head>
+<body>
+<div class="blur">
+  <div class="navbar">
+    <div class="menu">
+      <a href="/" class="img" id="Accueil"></a>
+      <a href="/connaisance" class="img" id="Compétences"></a>
+      <a href="/projet" class="img" id="Projets"></a>
+      <a href="/formation" class="img" id="Formations"></a>
+      <a href="/contact" class="img" id="Contact"></a>
+    </div>
+  </div>
+  <div class="projets" id="projet" data-aos="zoom-in">
+    <div class="projet-content">
+      <h2>Projets</h2>
+      <div class="projet-grid">
+        <div class="projet" id="poli" data-aos="fade-up" data-aos-delay="200">
+          <div class="projet-in" >
+            <h3>Polipedia</h3>
+            <p>Une application qui répertorie tout les députer et les informations les concernent</p>
+            <div class="btn-projet" id="polipedia">Plus d'info</div>
+          </div>
+        </div>
+        <div class="projet" id="heart" data-aos="fade-up" data-aos-delay="200">
+          <div class="projet-in">
+            <h3>HeartShare</h3>
+            <p>Ce projet a pour but de répertorier les actions bénévoles et les bonnes actions à faire dans votre région.</p>
+            <div class="btn-projet" id="heartshare">Plus d'info</div>
+          </div>
+        </div>
+        <div class="projet" id="lent" data-aos="fade-up" data-aos-delay="400">
+          <div class="projet-in">
+            <h3>LentZeppelin</h3>
+            <p>Une marketplace ou vous pouvez louez ou faire louer votre dirigeable.</p>
+            <div class="btn-projet" id="lentzeppelin">Plus d'info</div>
+          </div>
+        </div>
+        <div class="projet" id="immo" data-aos="fade-up" data-aos-delay="400">
+          <div class="projet-in">
+            <h3>Mon agence Immo</h3>
+            <p>Une simple Agence immobilière.</p>
+            <div class="btn-projet" id="monimmo">Plus d'info</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="footer">
+  <div class="footer-content">
+    <a href="https://www.facebook.com/profile.php?id=100009713947175"><img src="icons/fb.svg" alt="home" class="img-menu" ></a>
+    <a href="https://github.com/Simon25500"><img src="icons/git.svg" alt="home" class="img-menu" ></a>
+    <a href="https://www.instagram.com/simon.chardon/?hl=fr"><img src="icons/insta.svg" alt="home" class="img-menu" ></a>
+    <a href="https://www.linkedin.com/in/simon-chardon-005747198/"><img src="icons/lkin.svg" alt="home" class="img-menu" ></a>
+  </div>
+</div>
+</div>
+
+<div id="polipedia-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Polipedia</h2>
+    <p>Une application qui répertorie tout les députer et les informations les concernent</p>
+    <h3>Techno utilisé: </h3>
+    <p>HTML - SCSS - JS - RubyOnRails - HEROKU</p>
+    <a href="https://www.polipedia.fr" target="_blank" class="btn-modale">Allez voir!</a>
+  </div>
+</div>
+
+<div id="heartshare-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>HeartShare</h2>
+    <p>Ce projet a pour but de répertorier les actions bénévoles et les bonnes actions à faire dans votre région.</p>
+    <p>J'ai crée ce projet pour me former a React.js et Node.js</p>
+    <h3>Techno utilisé: </h3>
+    <p>HTML - CSS - Tailwindcss - React.js - Node.js - Express.js - HEROKU</p>
+    <a href="http://heartshare.herokuapp.com" target="_blank" class="btn-modale">Allez voir!</a>
+  </div>
+</div>
+
+<div id="lentzeppelin-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Lentzeppelin</h2>
+    <p>Une marketplace ou vous pouvez louez ou faire louer votre dirigeable.</p>
+    <p>Ce projet avait pour but d'apprendre à construire une marketplace.</p>
+    <h3>Techno utilisé: </h3>
+    <p>HTML - SCSS - JS - RubyOnRails - HEROKU</p>
+    <a href="https://www.polipedia.fr" target="_blank" class="btn-modale">Allez voir!</a>
+  </div>
+</div>
+
+<div id="monimmo-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Mon agence Immo</h2>
+    <p>Une simple Agence immobilière.</p>
+    <p>Ce site a été créé dans le cadre d'une formation sur PHP/Symfony.</p>
+    <h3>Techno utilisé: </h3>
+    <p>HTML - CSS - BOOTSTRAP - JS - PHP - SYMFONY - HEROKU</p>
+    <a href="https://www.polipedia.fr" target="_blank" class="btn-modale">Allez voir!</a>
+  </div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/particule.js"></script>
+<script src="js/modale.js"></script>
+<script  src="/js/index.js" ></script>
+</body>
+</html>

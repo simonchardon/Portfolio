@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet"  href="./stylesheets/style.css">
+</head>
+<body>
+<div class="blur">
+  <div class="navbar">
+    <div class="menu">
+      <a href="/" class="img" id="Accueil"></a>
+      <a href="/connaisance" class="img" id="Compétences"></a>
+      <a href="/projet" class="img" id="Projets"></a>
+      <a href="/formation" class="img" id="Formations"></a>
+      <a href="/contact" class="img" id="Contact"></a>
+    </div>
+  </div>
+
+  <div class="contact" id="contacts" data-aos="zoom-in">
+    <div class="contact-content">
+      <h2>Contact</h2>
+      <div>
+        <div class="wrap-contact100">
+          <form class="contact100-form validate-form" action="/mail"  method="post">
+
+            <div class="form-mail-name">
+              <div class="form-name wrap-input100 validate-input" data-validate="Veuillez entrez le nom">
+                <label for="name" class="label-input100">Nom</label>
+                <input class="input100" id="name" type="text" name="name" placeholder="Nom...">
+                <span class="focus-input100"></span>
+              </div>
+
+              <div class="wrap-input100 validate-input" data-validate = "Veuillez entrez l'email: ex@abc.xyz">
+                <label for="email" class="label-input100">Email</label>
+                <input class="input100" id="email" type="text" name="email" placeholder="Email...">
+                <span class="focus-input100"></span>
+              </div>
+            </div>
+
+
+            <div class="wrap-input100 validate-input" data-validate = "Veuillez entrez un message">
+              <label for="message" class="label-input100">Message</label>
+              <textarea class="input100" id="message" name="message" placeholder="Message..."></textarea>
+              <span class="focus-input100"></span>
+            </div>
+
+            <div class="container-contact100-form-btn">
+              <div class="wrap-contact100-form-btn">
+                <div class="contact100-form-bgbtn"></div>
+                <button class="contact100-form-btn">
+                  Envoyer
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="email">
+        <div class="line"></div>
+        <h3>OU</h3>
+        <div class="line"></div>
+      </div>
+      <a href="mailto: simonchardon87@gmail.com">simonchardon87@gmail.com</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-content">
+      <a href="https://www.facebook.com/profile.php?id=100009713947175"><img src="icons/fb.svg" alt="home" class="img-menu" ></a>
+      <a href="https://github.com/Simon25500"><img src="icons/git.svg" alt="home" class="img-menu" ></a>
+      <a href="https://www.instagram.com/simon.chardon/?hl=fr"><img src="icons/insta.svg" alt="home" class="img-menu" ></a>
+      <a href="https://www.linkedin.com/in/simon-chardon-005747198/"><img src="icons/lkin.svg" alt="home" class="img-menu" ></a>
+    </div>
+  </div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/particule.js"></script>
+<script src="js/modale.js"></script>
+<script  src="/js/index.js" ></script>
+</body>
+</html>
