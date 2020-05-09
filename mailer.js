@@ -9,7 +9,9 @@ module.exports = {
     console.log(process.env.GMAILMDP);
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      service: 'gmail',
+      host: 'smtp.gmail.com',
+      port: 465,
+      secure: true,
       auth: {
         user: 'simonchardon87@gmail.com',
         pass: process.env.GMAILMDP // naturally, replace both with your real credentials or an application-specific password
