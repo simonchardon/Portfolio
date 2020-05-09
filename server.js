@@ -63,7 +63,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 
 
 
@@ -88,9 +88,9 @@ app.get('/contact', (req, res) => {
 });
 
 app.post('/mail' , (req, res) => {
-  // mailer.main();
-  console.log(req.body);
-  res.send(status(200))
+  const body = req.body;
+  mailer.main(body.email, body.name, body.message);
+  res.redirect('/');
 })
 
 
