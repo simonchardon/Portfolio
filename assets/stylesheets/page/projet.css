@@ -89,3 +89,33 @@
 .btn-projet:hover {
  opacity: 100%;
 }
+
+
+@media (max-width: 800px) {
+  .projets{
+    height: auto;
+  }
+
+  .projet-grid{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 70%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .projet-content{
+    padding-top: 70px;
+  }
+
+  .projet-content h2 {
+    font-size: 32px;
+  }
+
+  .projet{
+    margin: 0 auto;
+    width: 90%;
+  }
+
+}

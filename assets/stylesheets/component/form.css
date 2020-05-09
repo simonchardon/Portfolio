@@ -298,9 +298,10 @@ button:focus {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .wrap-contact100 {
     width: 100%;
+    padding-top: 10px;
   }
 
   .contact100-map {
@@ -315,6 +316,9 @@ button:focus {
     top: auto;
     left: 50%;
     z-index: 10;
+  }
+  textarea.input100 {
+    min-height: 80px;
   }
 
 }

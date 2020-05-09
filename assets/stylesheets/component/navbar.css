@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   position: fixed;
+  top: 0;
 }
 
 .menu{
@@ -17,7 +18,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .img-menu{
@@ -101,3 +101,51 @@
   width: 60%;
 }
 
+@media (max-width: 800px) {
+  .navbar{
+    width: 100vw;
+    height: 90px;
+    flex-direction: row;
+  }
+  .menu{
+    width: 70%;
+    flex-direction: row;
+
+  }
+
+  #Accueil:hover {
+    height: 41px;
+    width: 41px;
+    background-image: url("../../images/home.svg");
+  }
+
+
+  #Compétences:hover {
+    height: 41px;
+    width: 41px;
+    background-image: url("../../images/connaisance.svg");
+  }
+
+
+  #Projets:hover {
+    height: 41px;
+    width: 41px;
+    background-image: url("../../images/experience.svg");
+  }
+
+  #Formations:hover {
+    height: 41px;
+    width: 41px;
+    background-image: url("../../images/graduated.svg");
+  }
+  #Contact:hover {
+    background-image: url("../../images/contact.svg");
+    height: 41px;
+    width: 41px;
+  }
+
+  .img{
+    height: 32px;
+    width: 32px;
+  }
+}

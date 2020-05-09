@@ -39,3 +39,40 @@
   width: 100%;
   height: 100%;
 }
+
+
+@media (max-width: 800px) {
+
+  .contact{
+    height: auto;
+  }
+
+  .contact-content {
+    padding-top: 90px;
+    width: 90%;
+  }
+
+  .contact-content h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+  .contact-content h3 {
+    /*border-top: 2px solid #fff;*/
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .contact-content a {
+    color: #fff;
+    font-size: 20px;
+  }
+  .line{
+    margin: 12px;
+  }
+}
+
+@media (max-height: 720px) {
+  .contact-content{
+    padding-bottom: 100px;
+  }
+}

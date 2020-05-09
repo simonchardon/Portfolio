@@ -52,3 +52,37 @@
 
   }
 }
+
+@media (max-width: 800px) {
+  .connaisance{
+    background-image: url("../../images/code2.png");
+    background-position: top;
+  }
+
+  .connaisance-content{
+    padding: 100px 0 0 0;
+    margin: 0 auto;
+  }
+  .connaisance-content h2 {
+    font-size: 32px;
+  }
+
+  .connaisance-content ul {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .connaisance-content .right {
+    width: 200px;
+    padding: 3px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+  }
+
+  .connaisance-content .left {
+    margin-left: 20%;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+}

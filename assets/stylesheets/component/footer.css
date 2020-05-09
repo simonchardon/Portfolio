@@ -16,3 +16,13 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media (max-width: 800px) {
+  .footer{
+    height: 60px;
+  }
+
+  .footer-content{
+    width: 250px;
+  }
+}

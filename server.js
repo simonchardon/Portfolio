@@ -89,7 +89,7 @@ app.get('/contact', (req, res) => {
 
 app.post('/mail' , (req, res) => {
   const body = req.body;
-  mailer.main(body.email, body.name, body.message);
+  mailer.main(body.email, body.name, body.message)
   res.redirect('/');
 })
 

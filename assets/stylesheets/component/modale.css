@@ -70,4 +70,9 @@
   opacity: 70%;
 }
 
-
+@media (max-width: 800px) {
+  .modal-content{
+    padding: 2%;
+    width: 90%;
+  }
+}

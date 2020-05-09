@@ -28,3 +28,43 @@
   font-size: 20px;
   color: #fff;
 }
+
+@media (max-width: 800px) {
+  .formation{
+    background-image: url("../../images/course2.png");
+    background-position: top left;
+  }
+
+  .formation-content{
+    padding: 110px 0 0 0;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .formation-content img{
+    margin: 0 auto;
+    width: 200px;
+  }
+
+  .formation-content h3 {
+    margin-top: 8%;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .formation-content span {
+    color: #63FDD8;
+  }
+
+  .formation-content p {
+    margin-top: 5%;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 400px) {
+  .formation-content p {
+    margin-top: 5%;
+    font-size: 15px;
+  }
+}
