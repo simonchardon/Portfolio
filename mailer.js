@@ -6,7 +6,7 @@ dotenv.config();
 module.exports = {
   async main(email, name, message) {
 
-
+    console.log(process.env.GMAILMDP);
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
       service: 'gmail',
@@ -28,5 +28,6 @@ module.exports = {
   }
 }
 // async..await is not allowed in global scope, must use a wrapper
+
 
 
