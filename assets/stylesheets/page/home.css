@@ -55,7 +55,7 @@
 @media (max-width: 800px) {
   .home{
     background-image: url("../../images/me2.png");
-    background-position: top;
+    background-position: top right;
   }
 
   .home-content {
